@@ -32,13 +32,13 @@ Build Frontend Image:
 
 ```bash
 
-sudo docker build -t frontend-image -f /home/ubuntu/code/flask-react-todo/Frontend-Dockerfile .
+sudo docker build -t frontend-image -f /home/ubuntu/source_code/flask-react-todo/Frontend-Dockerfile .
 ```
 Build Backend Image:
 
 ```bash
 
-sudo docker build -t backend-image -f /home/ubuntu/code/flask-react-todo/Backend-Dockerfile .
+sudo docker build -t backend-image -f /home/ubuntu/source_code/flask-react-todo/Backend-Dockerfile .
 ```
 Login to Docker Hub: 
 
